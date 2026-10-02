@@ -1,0 +1,14 @@
+{
+    "dataset_rows_after_cleaning": 12205,
+    "dataset_columns_after_cleaning": 23,
+    "duplicate_rows_removed": 125,
+    "missing_values": 0,
+    "target": "Revenue",
+    "test_size": 0.2,
+    "random_state": 42,
+    "models": [
+        "DummyClassifier",
+        "Logistic Regression",
+        "Random Forest"
+    ]
+}

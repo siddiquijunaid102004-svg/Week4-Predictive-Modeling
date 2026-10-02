@@ -1,0 +1,15 @@
+Week 4 - Predictive Modeling and Performance Evaluation
+
+This project focuses on developing a machine learning solution to predict whether an online shopping session will result in a purchase. The project uses the Online Shoppers Purchasing Intention dataset, which contains session-level information about visitor behavior, browsing activity, traffic characteristics, and purchase outcomes. The target variable, Revenue, indicates whether a session resulted in a purchase.
+
+The project follows an end-to-end predictive modeling workflow. The dataset was first loaded and inspected to understand its structure, data types, missing values, duplicate records, and target distribution. Data cleaning included checking for missing values and identifying duplicate records. The dataset contained no missing values, while duplicate records were identified and removed before model training. Boolean variables such as Weekend and Revenue were converted into suitable numerical representations for machine learning.
+
+Feature engineering was performed to create additional behavioral indicators, including TotalPages, TotalDuration, AvgTimePerPage, IsReturningVisitor, and EngagementScore. These features were designed to provide additional information about browsing depth, session duration, visitor type, and overall engagement.
+
+For predictive modeling, the workflow includes a baseline Dummy Classifier, Logistic Regression, and Random Forest Classifier. A preprocessing pipeline was used to handle numerical and categorical variables consistently. Numerical features were processed using imputation and standardization, while categorical features were handled using imputation and one-hot encoding.
+
+Model performance is evaluated using Accuracy, Precision, Recall, F1 Score, ROC-AUC, and PR-AUC. A confusion matrix, ROC curve, Precision-Recall curve, and Random Forest feature-importance analysis are also used to provide a deeper understanding of model performance and the factors contributing to predictions.
+
+The project aims to demonstrate how machine learning can support e-commerce decision-making by identifying patterns associated with purchase behavior. The results can help businesses better understand customer engagement, identify potentially high-value sessions, and support data-driven conversion strategies. The project also discusses limitations and future improvements, including additional feature engineering, model tuning, cross-validation, and evaluation of other machine learning algorithms.
+
+Overall, this project demonstrates a complete predictive analytics workflow, from data preparation and feature engineering through model development, performance evaluation, interpretation, and business-oriented insights.

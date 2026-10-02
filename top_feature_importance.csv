@@ -1,0 +1,16 @@
+Feature,Importance
+num__PageValues,0.37027965521426287
+num__ExitRates,0.07671373702618835
+num__ProductRelated_Duration,0.05503732925148046
+num__EngagementScore,0.052203372606428204
+num__TotalDuration,0.05092345132140829
+num__AvgTimePerPage,0.04313120678549077
+num__BounceRates,0.04059737769936955
+num__ProductRelated,0.03918323252381322
+num__TotalPages,0.03706391098750914
+num__Administrative_Duration,0.03617391332584321
+num__Administrative,0.030021659799938497
+cat__Month_Nov,0.02817898305930259
+num__TrafficType,0.019336744240782754
+num__Region,0.017673131106911353
+num__Informational_Duration,0.014778395053330725
